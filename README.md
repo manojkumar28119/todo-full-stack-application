@@ -47,4 +47,4 @@ The objective of this project is to develop a Todo Web Application where users c
 - **POST `/profile`**: Get user profile details.
 - **PUT `/update-profile`**: Update the user’s profile information.
 
-## Deployed link: https://todo-application-by-mk.netlify.app/
+## Deployed link: https://todo-apk-mk.netlify.app/
