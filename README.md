@@ -43,8 +43,6 @@ The objective of this project is to develop a Todo Web Application where users c
 - **PUT `/change-status`**: Update the status of a todo.
 - **DELETE `/delete-todo`**: Delete a todo.
 
-### User Profile Management
-- **POST `/profile`**: Get user profile details.
-- **PUT `/update-profile`**: Update the user’s profile information.
+
 
 ## Deployed link: https://todo-apk-mk.netlify.app/
