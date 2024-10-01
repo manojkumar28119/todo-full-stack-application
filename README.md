@@ -1,35 +1,42 @@
-# Todo Web Application
+# Todo Application
 
-## Objective
-The objective of this project is to develop a Todo Web Application where users can manage their daily tasks by storing them and updating their status. The application supports user authentication, task management, and profile management.
+## Overview
+This Todo Application is a feature-rich task management tool built with React. It provides users with the ability to create, manage, and track their tasks with an intuitive user interface and built-in timer functionality. The app is designed to enhance productivity by helping users stay organized and focused on their tasks.
 
-## Features
-- **User Authentication:**
-  - User registration (signup) with necessary details.
-  - User login with JWT-based authentication.
-  - Secure API routes to ensure only authenticated users can access certain features.
-
-- **Todo Management:**
-  - Create, Read, Update, Delete (CRUD) operations for managing daily tasks.
-  - Users can add new tasks, view a list of tasks, edit existing tasks, and delete tasks.
-  - Users can update the status of each task. The available statuses include "done," "pending," "in progress," and "completed."
-
-- **User Profile Management:**
-  - CRUD operations for managing the user’s profile.
-  - Users can update their profile information, such as name, email, and password.
-  - Profile updates are accessible only to the authenticated user.
+## Key Features
+- **Task Management**: Add, delete, and mark tasks as completed.
+- **Timer Functionality**: Start, pause, and reset timers for each task to track time spent.
+- **User Authentication**: Secure login and logout functionality using cookies.
+- **Completed Tasks Overview**: View detailed information about completed tasks, including start time, total time spent, and end time.
+- **Responsive Design**: The application is mobile-friendly and adjusts seamlessly across different screen sizes.
 
 ## Technologies Used
-- **Frontend:**
-  - ReactJS for building the user interface.
-  - React Router for handling client-side routing.
+- **Frontend**:
+  - React: JavaScript library for building user interfaces.
+  - React Router: For navigating between different components.
+  - CSS: For styling the application.
+  - React Icons: For using icons throughout the application.
 
-- **Backend:**
-  - Node.js with Express for creating RESTful APIs.
-  - JWT (JSON Web Tokens) for user authentication.
-  - UUID for generating unique IDs for tasks and users.
-  - SQLite3 for database management.
+- **Backend**:
+  - Node.js: JavaScript runtime for building the server.
+  - Express: Web framework for handling API requests.
+  - RESTful API: For handling requests and managing tasks.
 
+- **Database**:
+  - MongoDB: NoSQL database for storing tasks and user data.
+
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed on your machine:
+- Node.js (v14 or later)
+- npm (Node package manager)
+
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+   cd todo-app
 
 ## API Endpoints
 
